@@ -23,7 +23,7 @@ public class CaptureImage : MonoBehaviour
     IEnumerator TakeScreenshot()
     {
         yield return new WaitForEndOfFrame();
-        ScreenCapture.CaptureScreenshot("screenshot.png"); // need to have unique filename so distinguishable
+        ScreenCapture.CaptureScreenshot("Assets/Screenshots/screenshot" + System.DateTime.Now.ToString("MM-dd-yy_(HH-mm-ss)") + ".png"); // need to have unique filename so distinguishable
         Debug.Log("a screenshot was taken!");
     }
 }
