@@ -6,9 +6,11 @@ public class VanishOnApproach : MonoBehaviour
 {
     [SerializeField] GameObject player;
     [SerializeField] Sprite vanishSprite; // sprite before turning into cloud
+    [SerializeField] float threshold;
+    [SerializeField] ParticleSystem particleSystem;
+    float distance;
     SpriteRenderer spriteRenderer; // animal's sprite renderer
     Vector3 animalPosition;
-    float distance;
 
     void Start()
     {
@@ -20,14 +22,15 @@ public class VanishOnApproach : MonoBehaviour
     void Update()
     {
         distance = Vector3.Distance(animalPosition, player.transform.position);
-        if (distance < 10)
-        {
-            // swap to vanishSprite
-        }
+        // if (distance < 10)
+        // {
+        //     spriteRenderer.sprite = vanishSprite;
+        // }
 
-        if (distance < 7)
+        if (distance < threshold)
         {
             spriteRenderer.enabled = false;
+            particleSystem.Play();
         }
     }
 }
