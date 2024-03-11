@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4bd387c0559460b498733d99be4af990
+guid: 0f40c98ba90804b4dad56433c15fbd78
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: deer_0
+      name: bat_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1440
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91c74c2e833963d4696132664cb26fa8
-      internalID: 1372578759
+      spriteID: eb8b62d750a8d44489b61a73a19361bb
+      internalID: -1234134199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deer_1
+      name: bat_1
       rect:
         serializedVersion: 2
-        x: 1920
+        x: 1000
         y: 0
-        width: 1920
-        height: 1440
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04dc4c81f3145d64d82aa5a1e1cab34b
-      internalID: 1815603832
+      spriteID: 8c0743a91aa55734ebb81005e4e25e60
+      internalID: 1503037313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deer_2
+      name: bat_2
       rect:
         serializedVersion: 2
-        x: 3840
+        x: 2000
         y: 0
-        width: 1920
-        height: 1440
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a4c65919956241499097c7040ffb05e
-      internalID: 953731694
+      spriteID: bb9e0e800b25e4c4d89117d37a5a3b3d
+      internalID: -1162631919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deer_3
+      name: bat_3
       rect:
         serializedVersion: 2
-        x: 5760
+        x: 3000
         y: 0
-        width: 1920
-        height: 1440
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,8 +194,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60471742f554f1f4190765db6cc6d3d8
-      internalID: -868316518
+      spriteID: 6b2a8001614a9ac4d9953802237be5c0
+      internalID: 1757578531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_4
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d90a5df863d614bb533ab950c4b561
+      internalID: -729123118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_5
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09ef997fda1d7646801cd05b1b8f365
+      internalID: 2023948163
       vertices: []
       indices: 
       edges: []
@@ -203,7 +245,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 1cb5c3a81c7e68f4486476a18e97b736
     internalID: 0
     vertices: []
     indices: 
@@ -211,10 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      deer_0: 1372578759
-      deer_1: 1815603832
-      deer_2: 953731694
-      deer_3: -868316518
+      bat_0: -1234134199
+      bat_1: 1503037313
+      bat_2: -1162631919
+      bat_3: 1757578531
+      bat_4: -729123118
+      bat_5: 2023948163
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

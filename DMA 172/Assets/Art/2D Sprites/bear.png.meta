@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4bd387c0559460b498733d99be4af990
+guid: b9298f61fc1ded74bb44e55de6d38f05
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: deer_0
+      name: bear_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1440
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91c74c2e833963d4696132664cb26fa8
-      internalID: 1372578759
+      spriteID: a45ec96756135514dbeb1e005fdaa9d5
+      internalID: -2001228933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deer_1
+      name: bear_1
       rect:
         serializedVersion: 2
-        x: 1920
+        x: 1000
         y: 0
-        width: 1920
-        height: 1440
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04dc4c81f3145d64d82aa5a1e1cab34b
-      internalID: 1815603832
+      spriteID: 9581d29747c2f684399672d0617a2adc
+      internalID: -1934463296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deer_2
+      name: bear_2
       rect:
         serializedVersion: 2
-        x: 3840
+        x: 2000
         y: 0
-        width: 1920
-        height: 1440
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a4c65919956241499097c7040ffb05e
-      internalID: 953731694
+      spriteID: 2cb6dc49b0b08c8458c5537e627c8a49
+      internalID: -1732029282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deer_3
+      name: bear_3
       rect:
         serializedVersion: 2
-        x: 5760
+        x: 3000
         y: 0
-        width: 1920
-        height: 1440
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,8 +194,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60471742f554f1f4190765db6cc6d3d8
-      internalID: -868316518
+      spriteID: 5202f5c75a189f142b6add8383180e96
+      internalID: 836008118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear_4
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846b45d1f809e1c4994cb43b10f2eaa2
+      internalID: 12751995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bear_5
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f4980b812efdf44a0fdc9d357a24c9
+      internalID: -662622595
       vertices: []
       indices: 
       edges: []
@@ -203,7 +245,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: b1d3b8c470f6505478a09ff65c302756
     internalID: 0
     vertices: []
     indices: 
@@ -211,10 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      deer_0: 1372578759
-      deer_1: 1815603832
-      deer_2: 953731694
-      deer_3: -868316518
+      bear_0: -2001228933
+      bear_1: -1934463296
+      bear_2: -1732029282
+      bear_3: 836008118
+      bear_4: 12751995
+      bear_5: -662622595
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

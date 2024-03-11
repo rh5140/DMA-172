@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4bd387c0559460b498733d99be4af990
+guid: 1e8938cbfa4b0ee48aa65a310d9760ff
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: deer_0
+      name: squirrel2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1440
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91c74c2e833963d4696132664cb26fa8
-      internalID: 1372578759
+      spriteID: 9e783bd0d1c22cb47b31ee687d40c4f0
+      internalID: 210829508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deer_1
+      name: squirrel2_1
       rect:
         serializedVersion: 2
-        x: 1920
+        x: 1000
         y: 0
-        width: 1920
-        height: 1440
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04dc4c81f3145d64d82aa5a1e1cab34b
-      internalID: 1815603832
+      spriteID: 277cc320faea0ee4d9322127f13cde86
+      internalID: -1142775789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deer_2
+      name: squirrel2_2
       rect:
         serializedVersion: 2
-        x: 3840
+        x: 2000
         y: 0
-        width: 1920
-        height: 1440
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a4c65919956241499097c7040ffb05e
-      internalID: 953731694
+      spriteID: d27680c9a53f72743bec8b96210aa9d0
+      internalID: -1429017242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deer_3
+      name: squirrel2_3
       rect:
         serializedVersion: 2
-        x: 5760
+        x: 3000
         y: 0
-        width: 1920
-        height: 1440
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,8 +194,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60471742f554f1f4190765db6cc6d3d8
-      internalID: -868316518
+      spriteID: 4ba0ff57e86966c42969c2b612e4db52
+      internalID: -598001583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel2_4
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f609484bf82c64192600e6b01e16b7
+      internalID: -786684951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel2_5
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f65f9fe08605de488b49a898ee36e70
+      internalID: 1808112947
       vertices: []
       indices: 
       edges: []
@@ -203,7 +245,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 454c1458fb670354581eabded516acbf
     internalID: 0
     vertices: []
     indices: 
@@ -211,10 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      deer_0: 1372578759
-      deer_1: 1815603832
-      deer_2: 953731694
-      deer_3: -868316518
+      squirrel2_0: 210829508
+      squirrel2_1: -1142775789
+      squirrel2_2: -1429017242
+      squirrel2_3: -598001583
+      squirrel2_4: -786684951
+      squirrel2_5: 1808112947
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
